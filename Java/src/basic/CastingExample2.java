@@ -1,5 +1,5 @@
 package basic;
-// 자동 형 변환 큰쪽에서 작은쪽으로 변환할때
+// 자동 형 변환 : 큰쪽에서 작은쪽으로 변환할때
 public class CastingExample2 {
 
 	public static void main(String[] args) {

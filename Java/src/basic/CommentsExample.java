@@ -33,6 +33,7 @@ public class CommentsExample {
 			드래그 된 위치까지 전체 복사가 된다
 			art + 방향키 = 자기가 원하는 위치로 변경
 			원하는 줄까지 드래그 + ctrl + shift + / -> /*주석이 된다
+			ctrl + i + 드래그 = 자동 들여쓰기
 		*/
 	}
 

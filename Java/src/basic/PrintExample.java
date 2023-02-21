@@ -6,6 +6,7 @@ public class PrintExample {
 		 
 		/*
 		 # 자바의 표준 출력 형식은 크게 3가지입니다.
+		 
 		 1. 개행을 포함하지 않는 print()
 		 2. 자동으로 개행을 포함해 주는 println()
 		          *개행 : 줄바꿈

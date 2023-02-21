@@ -1,5 +1,5 @@
 package basic;
-//정수형
+// type : 정수형
 public class IntegerExample {
 
 	public static void main(String[] args) {

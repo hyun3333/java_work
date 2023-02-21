@@ -1,5 +1,5 @@
 package basic;
-//실수형
+// type : 실수형
 public class FloatExample {
 
 	public static void main(String[] args) {

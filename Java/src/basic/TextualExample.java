@@ -1,5 +1,5 @@
 package basic;
-//문자형
+// type : 문자형
 public class TextualExample {
 
 	public static void main(String[] args) {

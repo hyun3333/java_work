@@ -1,5 +1,5 @@
 package basic;
-
+// 식별자에 대한 규칙
 public class Identifier {
 
 	public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class Identifier {
 		System.out.println(age);
 		System.out.println(Age);
 		
-		// 2. 식별자 일므은 숫자로 지정하거나 숫자로 시작하시면 안됩니다.
+		// 2. 식별자 이름은 숫자로 지정하거나 숫자로 시작하시면 안됩니다.
 //		int 700 = 365; (x)
 //		int 7number = 7; (x)
 		int number7 = 7; 

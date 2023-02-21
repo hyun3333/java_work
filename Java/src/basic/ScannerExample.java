@@ -16,6 +16,7 @@ public class ScannerExample {
 		
 		/*
 		3. Scanner의 함수들을 이용하여 데이터를 입력받을 수 있습니다.
+		
 		-  next() : 공백이 없는 문자열을 입력받습니다.
 		-  nextLine() : 공백을 포함한 문자를 입력받습니다.
 		-  next + 기본타입이름() : 해당 타입에 맞는 데이터를 입력받습니다.
@@ -34,7 +35,7 @@ public class ScannerExample {
 		
 //		4. Scanner 객체를 반납
 //		객체를 반납 -> Scanner를 메모리에서 해제.
-//		더 이상 사용하지 않을때 쓴다
+//		더 이상 사용하지 않을때 쓴다 (안쓰면 cpu터진다)
 		sc.close();
 		
 		

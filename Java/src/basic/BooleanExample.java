@@ -1,5 +1,5 @@
 package basic;
-//논리형
+// type : 논리형
 public class BooleanExample {
 
 	public static void main(String[] args) {
