@@ -34,6 +34,32 @@ public class Hello {
 				
 		}
 		
+		
+		
+		
+		
+		for(int i=0; i<foods.length; i++) {
+			if(name.equals(foods[i])) {
+				System.out.println("탐색 완료!");
+				System.out.println("인덱스 : " + i + "번");
+				break;
+				} else if(i==foods.length-1) {
+					System.out.println("없는 음식입니다.");
+					break;
+					}
+			}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 	}
 

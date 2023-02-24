@@ -29,16 +29,16 @@ public class LoopNesting2 {
 			int cnt = 0; // 소수의 판별을 위해서 약수의 개수를 세 줄 변수.
 			
 			for(int j=1; j<=i; j++) {
-				if(i % j == 0) { //1 3
-					cnt = cnt + 1; //1 2
+				if(i % j == 0) { 
+					cnt = cnt + 1; 
 				}
 			}
 			
 			if (cnt == 2) {
 				System.out.print(i + " ");
-				count++; //1 1 2
+				count++;
 			}
-
+			
 		}
 		
 		System.out.println("\n소수의 개수 : " + count + "개");
