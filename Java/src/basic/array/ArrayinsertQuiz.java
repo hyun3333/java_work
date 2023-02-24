@@ -24,28 +24,36 @@ public class ArrayinsertQuiz {
 		
 		String[] foods = new String[50];
 		
+		int num = 0;
+		
 		for(int i=0; i<=foods.length; i++) {
 			System.out.print("먹을 음식은? ");
 			String name = sc.next();
-			if(name.equals(foods[i])) {
-				
-			} else if (name.equals("배불러")) {
+			if (name.equals("배불러")) {
 				System.out.println("입력 종료.");
 				break;
-			} else if (i == foods.length-1) {
-				foods[i] = 
-				System.out.println("중복입력");
 			}
-			
-					
-				
-			
-			
-			foods[i] = name;
+			for(int j=0; j<foods.length; j++) {
+				if(foods[j] == null) {
+				} else {
+					if (foods[j].equals(name)) {
+						num = 1;
+						break;
+					}
+				}
+			}
+			if (num == 1) {
+				System.out.println("중복음식");
+				num = 0;
+			}else {
+				foods[i] = name;
+			}
+
 		}
+			
 		
 		System.out.println("----------------------");
-		System.out.print("내가 먹고시은 음식들 : ");
+		System.out.print("내가 먹고싶은 음식들 : ");
 		
 		for(String s : foods) {
 			if (s == null) break;
