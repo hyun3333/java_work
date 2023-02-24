@@ -34,12 +34,11 @@ public class ArrayinsertQuiz {
 				break;
 			}
 			for(int j=0; j<foods.length; j++) {
-				if(foods[j] == null) {
-				} else {
-					if (foods[j].equals(name)) {
-						num = 1;
-						break;
-					}
+				if (name.equals(foods[j])) {
+					num = 1;
+					i--;
+					
+					break;
 				}
 			}
 			if (num == 1) {
@@ -50,8 +49,6 @@ public class ArrayinsertQuiz {
 			}
 
 		}
-			
-		
 		System.out.println("----------------------");
 		System.out.print("내가 먹고싶은 음식들 : ");
 		
